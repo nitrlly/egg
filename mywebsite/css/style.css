@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-image: url(../images/egg.jpeg);    
+    background-color: rgba(18, 0, 0, 0.716);
+    background-blend-mode: saturation;
+}
+
+.sidebar {
+    font-family: 'Trebuchet MS', sans-serif;
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(14, 6, 6, 0.481);
+}
+
+@keyframes menu-in{
+    0% {width: 240px;}
+    100% {width: 70px;}
+}
+
+.sidebar .logo-content{
+    align-items: center;
+    padding: 25px 25% 10px 25%;
+}
+
+.sidebar .logo-content .logo{
+    font-size: 2.75em;
+    float: left;
+    padding: 5px 5px;
+}
+
+.sidebar .logo-content .logo-name {
+    font-size: 2.25em;
+    float: left;
+    padding: 5px 5px;
+}
+
+.sidebar .logo-content .menu {
+    font-size: 2.75em;
+    float: right;
+    padding: 5px 15px;
+}
+
+.clr {
+    clear: both;
+}
+
+.sidebar-list ul{
+    list-style: none;
+}
+
+.sidebar-list ul li i{
+    font-size: 1.75em;
+}
+
+.sidebar-list ul li span{
+    font-size: 1.25em;
+}
+
+.sidebar-list a{
+    text-decoration: none;
+}
+
+.sidebar-list a .list-box {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar-list .search-box {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.386);
+    border-radius: 25pc;
+    width: 220px;
+    height: 100%;
+    margin: auto;
+}
+
+.sidebar-list .search-box input{
+    position: absolute;
+    margin: 15px 0;
+    color: rgb(255, 255, 255);
+    padding: 0 0;
+    outline: none;
+    border: 0;
+    background-color: rgba(114, 114, 114, 0);
+    width: 50%;
+    font-size: 1.5em;
+}
+
+.sidebar-list a .list-box span{
+    position: absolute;
+    margin-top: 2.5px;
+    padding: 30px 0;
+}
+
+.sidebar-list .search-box i{
+    padding: 15px 15px;
+}
+
+.sidebar-list a .list-box i{
+    padding: 30px 15px;
+}
+
+.sidebar-list a:hover .list-box {
+    text-decoration: none;
+    background-color: rgba(8, 1, 1, 0.718);
+}
